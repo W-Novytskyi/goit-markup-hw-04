@@ -181,14 +181,13 @@ padding: 94px 0;
 .work-paragraph:not(:last-child) {
     margin-right: 30px;
 }
-.name{
-    color: var(--title-text-color);
-    font-weight: 500;
+/* nasha komanda */
+.team {
+    background-color: var(--tertiary-white-color);
     font-size: 16px;
     line-height: 1.19;
-    margin-bottom: 10px;
 }
-.team-list{
+.team-list {
     display: flex;
     gap: 30px;
 }
@@ -199,11 +198,32 @@ padding: 94px 0;
     /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px; */
 }
-.team{
-    background-color: var(--tertiary-white-color);
+.name {
+    color: var(--title-text-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 10px;
 }
+.specialty {
+    margin-bottom: 16px;
+}
+.net-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.net-item {}
+
+.net-link {
+    width: 44px;
+    height: 44px;
+    display: block;
+    background-color: var(--primary-white-color);
+    border-radius: 50%;
+}
+
 /* футер */
 footer {
     background-color: var(--primary-dark-color);
